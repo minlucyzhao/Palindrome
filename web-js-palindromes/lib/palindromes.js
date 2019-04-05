@@ -1,6 +1,6 @@
 function isPalindrome(s) {
-  var stringReverse = s.split(" ").join("").split("").reverse().join("");
   var newS = s.split(" ").join("");
+  var stringReverse = newS.split("").reverse().join("");
   return newS === stringReverse;
 }
 
